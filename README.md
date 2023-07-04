@@ -1,2 +1,11 @@
-# Chase-Game
-Chase Game: An interactive application utilizing object-oriented programming and the A* search algorithm. Objective: Player reaches prize before enemy. Both move step by step in a grid. Barriers allow passage. Shortest path found with A* and Manhattan distance heuristic. Visualized by printing game state.
+# Chase Game
+
+The Chase Game is an interactive application that incorporates object-oriented programming and utilizes the A* search algorithm based on the Manhattan distance. Its primary objective is to provide an engaging and dynamic gaming experience for the player.
+In this game, players are tasked with reaching a prize location before being caught by an enemy. The game world operates in a grid-based environment, where the player, the enemy, and various objects are represented by their respective positions on the grid.
+The gameplay revolves around strategic movement in four directions: up, down, right, and left. Both the player and the enemy can move one step at a time within the boundaries of the game grid.
+The prize is a static object that remains fixed throughout the game. Its purpose is to serve as the ultimate target for the player to reach. On the other hand, the enemy's goal is to dynamically calculate the shortest path to the player and intercept them before they can claim the prize.
+To determine the optimal path, the game employs the A* search algorithm, a widely used pathfinding algorithm. This algorithm considers the Manhattan distance, a heuristic that estimates the minimum number of moves required to reach the player from any given position on the grid.
+Additionally, the game introduces static objects called barriers. These barriers occupy specific grid cells and act as obstacles that can't be traversed by the player and the enemy. They add an extra layer of complexity to the gameplay, requiring players to strategize their movements and find paths that navigate around these barriers.
+Throughout the game, the current state of the game board, including the positions of the player, enemy, prize, and barriers, is visually represented by printing the game grid. This visualization allows players to observe the changes in their surroundings and make informed decisions based on the information presented.
+By combining object-oriented programming, the A* search algorithm, and strategic player interactions, the Chase Game offers an immersive and challenging experience. Players must navigate the grid, outmaneuver the enemy, and reach the prize while adjusting their paths dynamically to avoid capture.
+
